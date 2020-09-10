@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Biz burada drawable da ekran tasarımı ile ilgili şeyleri yaparız
+          <item android:drawable="@android:color/holo_green_dark" :Hangi resim getirilecek
+                  android:state_pressed="true" :True olduğunda bu olacak
+
+
+
+      -->
+
+
+    <item android:drawable="@android:color/holo_green_dark" android:state_enabled="true" android:state_pressed="true" />
+
+    <item android:drawable="@android:color/holo_orange_dark" android:state_enabled="true" />
+
+
+</selector>

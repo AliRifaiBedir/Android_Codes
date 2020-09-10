@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <!--    Sistem servisleri androidtekki bir takım işlemleri yapan
+    nesneler vardır.Bunlardan bir tanesi vibrate sınıfıdır
+    Şimdi aşağıda 3 tane buton tanımladık
+
+    -->
+
+    <Button
+        android:id="@+id/buttonVibrate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yarım saniye Titret" />
+
+    <Button
+        android:id="@+id/buttonVibrate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titreşim için dokun" />
+
+    <Button
+        android:id="@+id/buttonVibrate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belirli aralıklarla titret" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shared Prfenreces İle Beni Hatirla-Shared Preferences Sınıfı Olusturma</string>
+    <string name="test_username">ismek</string>
+    <string name="test_password">1</string>
+    <string name="login_eror">Kullanıcı adı veya Şifre Hatalı</string>
+
+
+</resources>

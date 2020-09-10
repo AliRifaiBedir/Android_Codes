@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/butonA"
+        android:text="A"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:id="@+id/butonB"
+        android:text="B"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:id="@+id/butonC"
+        android:layout_alignParentBottom="true"
+        android:text="C"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonD"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:text="D"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonE"
+     android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:text="E"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonF"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+
+        android:text="F"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonG"
+        android:layout_centerInParent="true"
+android:layout_alignParentLeft="true"
+        android:text="G"
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <!--    Notification uygulamalrın kullanıcılarla uygulama dışında yaptığı
+
+    iletişim kurduğu yapılardır.Öreneğin bir sohbet uygulaması sürekli açık olmaz bir servisle
+    kullanıcıyı uyarması lazım.
+
+    Şimdi basit bir tasarım olsun
+
+
+    -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textSize="25sp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNotification"
+        android:text="Bildirim Oluştur"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNotificationSil"
+        android:text="Bildirim Sil"
+        />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kullanıcı">User</string>
+    <string name="sifre">Password</string>
+    <string name="gönder">Send</string>
+    <string name="iptal">Cancel</string>
+
+</resources>

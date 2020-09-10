@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--  Android veri depolama için birkaç farklı yöntem sunuyor.Bunları kendi sitesinde söyle sıralamıs
+    1)Shared Preferences:Anahtar-değer mantığıyla tek ddeğerler tutulabiliyor.Bi oyundaki en yüksek skor
+    gibi düşünebliriz.En yüksek skoru kaydediyoruz daha sonra oyunu kapatıp açtıktan sonra en yüksek
+    skoru görebiliyoruz
+    2)Iternal Storage:Cihazın bazı bilgileri cihazın kendi hafızasında tututalabliyor
+    3)External Storage:SD kart gibi harici kartlarda tutulabilir
+    4)SQLİTE Database:Burda normal veri tabanında tablolarla ilişkilendirip verileri çekebililyoruz
+    Bunun bir arayüz prpogramı da var
+    5)Network Connetcion:İlk 4 tanesinde veriler kendi localinde yani telefon ya da harici kartta
+    depolanıyor ama bu Network Connetcition da mantık örn:Hepimiz aynı sınıfta aynı oyunu oynuyoruz
+    ve en yüksek puanı ali alsın biz bunu hepimiz kendi telefonumzda görüyoruz.Bunu görebilmek için bunda
+    web üzerinden ulasmamkz lazım
+
+    -->
+
+
+    <!-- Kaydet butonuna bastığımızda  checkbox secili iken SharedPreferences olarak kaydedececk
+       Sil deyinci silecek, Kladır deyince oluşturan yapıyı kaldıracak
+       2.Aktiviteye git deyince kaydettiğmiz veriyi gösterecek aktiiviteye  ama Intent ile değil
+       yani uygulama yeniden kapatılıp açılınca bile o değer kayıtlı şekilde bize gösterilecek
+
+       Bundan önceki uygulamalrda bütün datalar uygulamalr açılıp kapanınva siliniyordu ama şimdi
+       silinmeyecel
+
+
+
+       -->
+
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <EditText
+        android:id="@+id/etIsim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10">
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sil" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaldır" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Aktiviteye Git" />
+
+
+</LinearLayout>

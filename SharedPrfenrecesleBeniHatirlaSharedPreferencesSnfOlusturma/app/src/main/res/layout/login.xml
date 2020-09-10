@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+
+
+    android:orientation="vertical">
+
+
+    <!--Bizim istedğimiz kullanıcı adı ve şifre girildiğnide ve Checkbox tıklandığında
+       ve daha sonra giriş butonuna basıldığında ikinci ekran olam MainActivty geçecek
+       orda da yalnızca TextView var "Hoşgeldiniz Kullanıcı Adı" diyecek.
+       Ayrıca login xml de yani login activity de uygulamayı kapatıp açtığımızda
+       kullanıcı adı direkt gelecek bunun için SharedPrefences kullanacaz.
+
+     Burda Kullanıcı adı ve BeniHatırla adlı cHECHKbOX DURUMUNU yakalayacak
+
+     kullanıcı adı için string ve checkBox için boolean tipi olacak.
+
+     Bundan dolayı iki tane keyimiz olacakyani.
+
+      -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Kullanıcı Girişi" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanıcı Adı :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sifre :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10" />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/chkRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Beni Hatırla" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Giriş" />
+
+
+</LinearLayout>

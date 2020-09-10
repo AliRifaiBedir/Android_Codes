@@ -1,0 +1,2 @@
+rootProject.name='Android Spinner İle Liste Halinde Müzik Çalmak'
+include ':app'

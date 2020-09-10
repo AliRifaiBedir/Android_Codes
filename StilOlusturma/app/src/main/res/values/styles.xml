@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Temam" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/holo_blue_bright</item>
+
+    </style>
+
+
+
+
+
+
+    <style name="yenistil" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="color">@android:color/holo_red_dark </item>
+        <item name="android:textColor">@color/babarengi</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="background">@android:color/holo_blue_bright</item>
+        <item name="android:text">alirifai</item>
+
+    </style>
+
+
+    <style name="yenistil.BuyukYazı">
+        <item name="android:textSize">50sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
+</resources>

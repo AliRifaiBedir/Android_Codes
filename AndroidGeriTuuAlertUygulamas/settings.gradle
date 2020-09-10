@@ -1,0 +1,2 @@
+rootProject.name='Android Geri Tuşu Alert Uygulaması'
+include ':app'

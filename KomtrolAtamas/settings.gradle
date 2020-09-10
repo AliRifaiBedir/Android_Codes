@@ -1,0 +1,2 @@
+rootProject.name='KomtrolAtaması'
+include ':app'

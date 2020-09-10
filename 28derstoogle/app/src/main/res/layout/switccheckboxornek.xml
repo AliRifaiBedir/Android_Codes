@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adınız:"
+            android:id="@+id/textviewID"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="@string/alfabe"
+            android:ems="10"
+            android:id="@+id/EdittextID"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soyadınız:"
+            android:id="@+id/textviewID2"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/EdittextID2"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/RadioGroupmedeni">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evli"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            android:id="@+id/RadioEvli"
+
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bekar"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/RadioBekar"/>
+
+    </RadioGroup>
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Kapalı"
+        android:textOn="Açık"
+        android:checked="false"
+        android:showText="true"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:text="Hobileriniz var mı?"
+        android:id="@+id/SwitchID2"
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/GridlayoutID"
+        android:visibility="gone"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="müzik"
+            android:id="@+id/checkboxMUZİK"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spor"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/checkboxSPOR"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dans"
+            android:id="@+id/checkboxDANS"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sinema"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/checkboxSİNEMA"
+            />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YAZDIR"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/yazdırBUTONID"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewIDLAST"
+        android:text="SONUC"
+        android:textSize="25sp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

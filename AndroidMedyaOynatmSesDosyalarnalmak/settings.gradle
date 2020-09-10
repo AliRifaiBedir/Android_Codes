@@ -1,0 +1,2 @@
+rootProject.name='Android Medya Oynatımı-Ses Dosyalarını Çalmak'
+include ':app'

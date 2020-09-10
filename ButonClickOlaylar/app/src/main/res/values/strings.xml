@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ButonClickOlayları</string>
+    <string name="text">Sayac:0</string>
+    <string name="buton">Arttır</string>
+    <string name="buton2">Azalt</string>
+
+
+
+</resources>

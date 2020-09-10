@@ -1,0 +1,2 @@
+rootProject.name='Android VideoView Kullanımı'
+include ':app'

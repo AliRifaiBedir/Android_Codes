@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Spinner İle Liste Halinde Müzik Çalmak</string>
+    <string-array name="muzikler">
+        <item>hzn</item>
+        <item>sago</item>
+        <item>yol</item>
+
+    </string-array>
+
+
+</resources>

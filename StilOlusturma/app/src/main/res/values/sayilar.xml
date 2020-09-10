@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="dizi">-array name="dizi">
+        <item>234</item>
+        <item>236</item>
+        <item>239</item>
+        <item>235</item>
+        <item>232</item>
+        <item>233</item>
+
+    </integer-array>
+
+
+</resources>

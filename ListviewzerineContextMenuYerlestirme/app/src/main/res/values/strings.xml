@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Listview Üzerine Context Menu Yerlestirme</string>
+    <string-array name="names">
+        <item> Sergen Ekici </item>
+        <item> Emre Ören </item>
+        <item> Eren Akpınar </item>
+        <item> Berkcan Çalık </item>
+        <item> İsmail Gür </item>
+
+    </string-array>
+
+
+
+
+
+
+
+</resources>

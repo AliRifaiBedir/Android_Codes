@@ -1,0 +1,2 @@
+rootProject.name='Sms Geldiğinde BroadCastReceiver İLE Sms Bilgilerini Yakalama'
+include ':app'

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.deklaratifoptionmenolusturma.MainActivity">
+    <!--  android:orderInCategory="100" : Bu ekranda görüntülenme sırası oluyor  -->
+
+    <!-- app:showAsAction="never"   : Menülerin ToolBarda görüntülenip
+    görüntülenmeyeceğini ayarları -->
+
+    <!--           android:icon="@mipmap/ic_launcher_round" :Böylece icon ekeldik   -->
+
+    <!--    İtemlara OnClick özelliği verilebilir-->
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:onClick="mnu_click"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@mipmap/ic_launcher_round"
+        android:onClick="mnu_click"
+        android:orderInCategory="100"
+        android:title="Kaydet"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_quit"
+        android:onClick="mnu_click"
+        android:orderInCategory="100"
+        android:title="Çıkış"
+        app:showAsAction="ifRoom" />
+</menu>

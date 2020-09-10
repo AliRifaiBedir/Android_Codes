@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/EditGirisID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/giris"
+        android:inputType="textPersonName"
+        android:ems="10">
+        <requestFocus/>   //bunun sayesinde imlecin burda yanmasını sağlarız her zaman
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/EditSifreID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/sifre"
+        android:ems="10"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/btnGönderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            />
+        <Button
+            android:id="@+id/btnSilID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

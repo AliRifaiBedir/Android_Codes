@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Spinner(Drop Down List) Kullanımı</string>
+    <string name="ulkeSec">Ülke Seçiniz</string>
+    <string-array name="ulke_dizisi">
+        <item>Türkiye</item>
+        <item>Bulgaristan</item>
+        <item>Sırbistan</item>
+        <item>Yunanistan</item>
+        <item>Ermenistan</item>
+        <item>Azerbaycan</item>
+        <item>Rusya</item>
+
+
+
+
+
+    </string-array>
+
+
+
+</resources>

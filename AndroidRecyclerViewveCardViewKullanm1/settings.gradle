@@ -1,0 +1,2 @@
+rootProject.name='Android RecyclerView ve CardView Kullanımı-1'
+include ':app'

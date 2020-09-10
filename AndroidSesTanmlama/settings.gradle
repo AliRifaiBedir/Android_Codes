@@ -1,0 +1,2 @@
+rootProject.name='Android Ses Tanımlama'
+include ':app'

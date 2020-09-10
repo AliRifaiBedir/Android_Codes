@@ -1,0 +1,2 @@
+rootProject.name='Android Yazıyı Konuşmaya Çevirme'
+include ':app'

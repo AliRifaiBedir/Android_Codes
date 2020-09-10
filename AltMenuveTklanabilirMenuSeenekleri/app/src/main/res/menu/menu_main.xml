@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.altmenuvetklanabilirmenuseenekleri.MainActivity">
+
+    <!--  Burada tasarım üzeirnde SubMENU olusturcaz
+
+    Burada tasarım yaparken iç içe olacağı için dikkatli olmak lazım
+    önce item tagini açıyoruz ve "menu" tagi eklliyoruz
+    daha sonra menu tagi içinde "group" tagi açıyoruz
+    onun da içine item ile eklemeleri yapıyoruz
+
+
+    Şimdi bunlara AcTİVİTY DE erişelim
+
+       -->
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Ayarlar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mahalleler"
+        android:orderInCategory="100"
+        android:title="Mahalleler"
+        app:showAsAction="never">
+
+        <menu>
+            <group android:checkableBehavior="all">
+
+                <item
+                    android:id="@+id/mahalleler_sub1"
+                    android:checked="false"
+                    android:orderInCategory="100"
+                    android:title="Mahaller_sub1">
+                    <menu>
+                        <group>
+
+                            <item
+                                android:id="@+id/mahalleler_sub1_sub1"
+                                android:orderInCategory="100"
+                                android:title="Mahaller_sub1_sub1" />
+                            <item
+                                android:id="@+id/mahalleler_sub1_sub2"
+                                android:orderInCategory="100"
+                                android:title="Mahaller_sub1_sub2" />
+
+
+
+                        </group>
+
+
+
+
+                    </menu>
+
+
+
+
+
+
+                </item>
+
+
+                <item
+                    android:id="@+id/mahalleler_sub2"
+                    android:orderInCategory="100"
+                    android:title="Mahaller_sub2" />
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/ilceler"
+        android:orderInCategory="100"
+        android:title="İlceler"
+        app:showAsAction="never" />
+
+</menu>

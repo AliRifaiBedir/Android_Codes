@@ -1,0 +1,2 @@
+rootProject.name='AndroidWebView Oflline Kullanımı'
+include ':app'

@@ -1,0 +1,2 @@
+rootProject.name='Notification(Bildirimler)-Temel Özellikler'
+include ':app'

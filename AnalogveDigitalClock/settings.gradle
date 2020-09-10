@@ -1,0 +1,2 @@
+rootProject.name='Analog ve Digital Clock'
+include ':app'

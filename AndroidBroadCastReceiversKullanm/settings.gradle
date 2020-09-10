@@ -1,0 +1,2 @@
+rootProject.name='Android BroadCast Receivers Kullanımı'
+include ':app'

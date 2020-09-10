@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- num
+    android:rating="2.0"(baslangıcta kac tane yıldız seçili olaak)
+    RATİNGBAR ile kullanıcıya oylama yaptırıyoruz
+
+     android:stepSize="0,5"(ADIM ARALIĞI)
+      android:isIndicator="true" (KULLANICI MÜDAHALE EDEMİYOR)
+
+
+
+
+
+
+
+
+       -->
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingbarID"
+        android:numStars="4"
+        android:rating="2.0"
+        android:stepSize="0.5"
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonID"
+        android:text="GÖNDER"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SONUC:"
+        android:id="@+id/textID"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>

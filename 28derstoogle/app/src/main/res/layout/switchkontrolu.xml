@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/switcID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:checked="true"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:showText="true"
+        android:textOff="kapalı"
+        android:textOn="acık"
+        android:text="Switvh Kontroiü"
+        android:backgroundTint="@android:color/holo_orange_dark"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gönder"
+        android:id="@+id/buttonID"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textID"/>
+
+
+
+</LinearLayout>

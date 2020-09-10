@@ -1,0 +1,3 @@
+<resources>
+    <string name="app_name">Sms Geldiğinde BroadCastReceiver İLE Sms Bilgilerini Yakalama</string>
+</resources>

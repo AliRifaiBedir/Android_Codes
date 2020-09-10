@@ -1,0 +1,2 @@
+rootProject.name='Clipboard Manager-Sistem Servisleri'
+include ':app'

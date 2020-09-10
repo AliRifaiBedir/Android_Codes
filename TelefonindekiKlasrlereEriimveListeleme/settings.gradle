@@ -1,0 +1,2 @@
+rootProject.name='Telefon İçindeki Klasörlere Erişim ve Listeleme'
+include ':app'

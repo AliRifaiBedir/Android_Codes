@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StilOlusturma</string>
+    <string name="number1">1.sayı</string>
+    <string name="number2">2.sayı</string>
+    <string name="edit1">sayı</string>
+    <string name="edit2">sayı</string>
+    <string name="toplama_slem">TOPLAMA İSLEMİ</string>
+    <string name="buton">BUTON</string>
+    <string name="toplam">Toplam</string>
+
+</resources>

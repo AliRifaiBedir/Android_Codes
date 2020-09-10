@@ -1,0 +1,2 @@
+rootProject.name='ListView-Spinner Seçilen Ülkeye Göre İller Listeleniyor'
+include ':app'

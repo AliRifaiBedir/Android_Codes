@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/adsoyad"
+       android:textColor="@android:color/holo_red_dark"
+       android:textStyle="bold"
+       android:id="@+id/edittexID"
+
+       />
+
+    <TextView
+        android:layout_gravity="top"
+        android:id="@+id/textviewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_green_dark"/>
+
+
+
+    <Button
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/buttonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/gönder"/>
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

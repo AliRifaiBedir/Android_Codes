@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListView-Spinner Seçilen Ülkeye Göre İller Listeleniyor</string>
+    <string-array name="arrCountries">
+        <item>Türkiye</item>
+        <item>Almanya</item>
+        <item>KKTC</item>
+
+
+    </string-array>
+
+
+</resources>

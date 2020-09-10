@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--  android:format12Hour="@null" : burda 12 saatli zamanda bi şey olmayaak -->
+    <!--  android:timeZone="Canada" : burda Canada diyerek saati ona göre yaptı -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android TextClock Örneği"
+        />
+    
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:format24Hour="yyyy hh:mm:ss aa"
+        android:format12Hour="@null"
+        android:textSize="24sp"
+        android:timeZone="Canada"
+
+        />
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock1"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:timeZone="Canada"/>
+        <!-- Burada bunların içine
+        main activyde ulasacaz -->
+
+
+</LinearLayout>

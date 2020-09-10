@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ButonClick İLE Giris İslemleri</string>
+    <string name="text">Kullanıcı Girişi</string>
+    <string name="giris">İsim Giriniz</string>
+    <string name="sifre">Sifre Giriniz</string>
+    <string name="send">Gönder</string>
+    <string name="delete">Sil</string>
+
+
+
+
+
+</resources>

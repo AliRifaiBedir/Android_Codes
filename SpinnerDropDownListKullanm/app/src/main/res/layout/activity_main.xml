@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    Kullanıcının tıklandığında açılan bir listeden seçmesini sağlayan
+görsel bir elemandır-->
+
+<!--  String xml'de string-array tanımladık   -->
+<!--    android:entries="@array/ulke_dizisi":String xml de tanımladığımız
+ arrayListe ulasmış gibi oluyoryuz-->
+<!--    android:prompt="Ülke Seçiniz" // Bunu string içnde tanımla
+        android:spinnerMode="dialog"
+        Prompt için aşağıda spinnerın dialog olması lazım
+
+        -->
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnEkle"
+    android:text="Ekle"
+    android:onClick="btnEkle"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_1"
+        android:entries="@array/ulke_dizisi"
+        android:prompt="@string/ulkeSec"
+        android:spinnerMode="dialog"
+
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_2"
+        />
+
+</LinearLayout>
